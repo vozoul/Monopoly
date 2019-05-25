@@ -1,0 +1,45 @@
+Everyone Start with 1500$
+if total assets < 0$ then you lose
+you can trade in between dice rolls with other player
+min player = 2
+max player = 8
+2 dices
+    - if you roll double 3 times in a row => go to jail
+jail consists of 3 turns to roll dices
+    - if you roll a double at least one of these turns then you'll get out of jail
+    - else you have to pay $50
+the board is composed of 40 cases
+    - 20 charming card
+    - 20 unlucky card
+
+Buying property
+    -Each property will have a buying price
+    -Mortgage value
+    -Rent value
+        >non-owners will pay this rent value
+
+Mortgaging
+    -owner gets that money
+    -landing on a mortaged home won't be charged
+    -to un-mort-gage a house pay the mortage fee
+
+buying houses
+    -property has a specified house cost value
+    -you can only buy 4houses, then you can buy a hotel
+
+Special cases
+    -Go to jail
+        >go to jail, don't collect 200$
+    -income tax
+        >Pay 10% or 200$
+    -free parking
+        >nothing happens
+    -water works + Electric compagny
+        >charge 4x's the dice roll if 1 utility is owned
+        >charge 10x's the dice roll if both are owned
+    -Railroads
+        >$25
+        >(2) $50
+        >(3) $75
+        >(all) $100
+        >mortgage value is $100
