@@ -6,7 +6,7 @@ public class CaseBoardImpl implements CaseBoard {
 
     private String name;
 
-    protected CaseBoardImpl(String name) {
+    public CaseBoardImpl(String name) {
         this.name = name;
     }
 

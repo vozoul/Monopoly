@@ -15,7 +15,7 @@ public class Board {
         caseBoardList.add(caseBoard);
     }
 
-
-
-
+    public CaseBoardImpl getCase(int index){
+     return (CaseBoardImpl) caseBoardList.get(index);
+    }
 }

@@ -19,10 +19,20 @@ public class BuyableCaseImpl extends CaseBoardImpl implements BuyableCase {
         family.addCaseBoard(this);
     }
 
+
+    //a deplacer sur gameSatate ("Monopoly")
     @Override
     public void buy(Player player) {
         // todo
-        setOwner(player);
+        //si la propriete est libre
+            //si le joueur peut acheter
+                //est-ce qu'il achete
+        if(!isOwner(player)){
+            if(canBuy(player)) {
+                //avant de setOwner payBill(Player player)
+                setOwner(player);
+            }
+        }
     }
 
     @Override
@@ -52,6 +62,10 @@ public class BuyableCaseImpl extends CaseBoardImpl implements BuyableCase {
         }else {
             return player.equals(owner);
         }
+    }
+
+    private boolean canBuy(Player player){
+        return player.getFund() >= getCost();
     }
 
     @Override
