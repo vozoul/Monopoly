@@ -68,7 +68,7 @@ public class ClientConsole {
     }
 
     private static void launchGame(Monopoly game, ArrayList<Player> players, Scanner scan){
-        listingPlayers(players);
+        //listingPlayers(players);
     }
 
     private static String displayMenu(Scanner scan){
