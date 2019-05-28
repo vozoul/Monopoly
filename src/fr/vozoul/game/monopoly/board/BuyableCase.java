@@ -1,6 +1,6 @@
-package fr.srault.game.monopoly.board;
+package fr.vozoul.game.monopoly.board;
 
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.player.Player;
 
 public interface BuyableCase extends CaseBoard {
 
@@ -39,6 +39,12 @@ public interface BuyableCase extends CaseBoard {
      * @return the mortgage
      */
     public int getMortgage();
+
+    /**
+     * Mortgaging property
+     * reset the Owner make the prperty available for other players
+     */
+    public void doMortGage(Player Owner);
 
     /**
      * get if the player is the owner to do action

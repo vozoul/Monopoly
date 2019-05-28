@@ -1,7 +1,7 @@
-package fr.srault.game.monopoly;
+package fr.vozoul.game.monopoly;
 
-import fr.srault.game.monopoly.player.HumanPlayer;
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.player.HumanPlayer;
+import fr.vozoul.game.monopoly.player.Player;
 
 public class TestMonopoly {
 

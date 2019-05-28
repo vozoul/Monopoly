@@ -1,4 +1,4 @@
-package fr.srault.game.monopoly.cards;
+package fr.vozoul.game.monopoly.cards;
 
 import java.util.ArrayList;
 

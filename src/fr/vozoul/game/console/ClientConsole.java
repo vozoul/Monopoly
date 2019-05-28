@@ -1,8 +1,8 @@
-package fr.srault.game.console;
+package fr.vozoul.game.console;
 
-import fr.srault.game.monopoly.Monopoly;
-import fr.srault.game.monopoly.player.HumanPlayer;
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.Monopoly;
+import fr.vozoul.game.monopoly.player.HumanPlayer;
+import fr.vozoul.game.monopoly.player.Player;
 
 import java.util.ArrayList;
 import java.util.Scanner;

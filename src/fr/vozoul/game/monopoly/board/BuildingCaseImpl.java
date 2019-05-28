@@ -1,4 +1,4 @@
-package fr.srault.game.monopoly.board;
+package fr.vozoul.game.monopoly.board;
 
 public class BuildingCaseImpl extends BuyableCaseImpl implements BuildingCase {
 

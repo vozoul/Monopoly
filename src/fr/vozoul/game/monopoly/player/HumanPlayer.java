@@ -1,6 +1,6 @@
-package fr.srault.game.monopoly.player;
+package fr.vozoul.game.monopoly.player;
 
-import fr.srault.game.monopoly.board.Board;
+import fr.vozoul.game.monopoly.board.Board;
 
 public class HumanPlayer implements Player {
 

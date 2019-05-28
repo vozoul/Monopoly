@@ -1,4 +1,4 @@
-package fr.srault.game.monopoly.player;
+package fr.vozoul.game.monopoly.player;
 
 /**
  * Settings and Abilities of players

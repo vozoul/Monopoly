@@ -1,6 +1,6 @@
-package fr.srault.game.monopoly.board;
+package fr.vozoul.game.monopoly.board;
 
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.player.Player;
 
 public class BuyableCaseImpl extends CaseBoardImpl implements BuyableCase {
 
@@ -71,5 +71,12 @@ public class BuyableCaseImpl extends CaseBoardImpl implements BuyableCase {
     @Override
     public int getMortgage() {
         return mortGage;
+    }
+
+    @Override
+    public void doMortGage(Player Owner) {
+        if(isOwner(Owner)){
+            owner = null;
+        }
     }
 }

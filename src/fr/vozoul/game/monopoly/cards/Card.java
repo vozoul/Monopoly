@@ -1,6 +1,6 @@
-package fr.srault.game.monopoly.cards;
+package fr.vozoul.game.monopoly.cards;
 
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.player.Player;
 
 public interface Card {
 

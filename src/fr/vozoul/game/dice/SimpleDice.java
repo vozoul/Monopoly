@@ -1,4 +1,4 @@
-package fr.srault.game.dice;
+package fr.vozoul.game.dice;
 
 public class SimpleDice {
 

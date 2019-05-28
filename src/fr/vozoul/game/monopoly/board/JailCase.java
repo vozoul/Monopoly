@@ -1,6 +1,6 @@
-package fr.srault.game.monopoly.board;
+package fr.vozoul.game.monopoly.board;
 
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.monopoly.player.Player;
 
 public class JailCase extends CaseBoardImpl {
 

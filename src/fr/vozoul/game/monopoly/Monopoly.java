@@ -1,8 +1,9 @@
-package fr.srault.game.monopoly;
+package fr.vozoul.game.monopoly;
 
-import fr.srault.game.dice.DoubleDice;
-import fr.srault.game.monopoly.board.*;
-import fr.srault.game.monopoly.player.Player;
+import fr.vozoul.game.dice.DoubleDice;
+import fr.vozoul.game.monopoly.board.*;
+import fr.vozoul.game.monopoly.player.Player;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -118,6 +119,7 @@ public class Monopoly {
         if (!currentPlayer.canPlay()) {
             nextPlayer();
         }
+
     }
 
     private boolean hasWinner() {
