@@ -3,7 +3,6 @@ package fr.srault.game.monopoly;
 import fr.srault.game.dice.DoubleDice;
 import fr.srault.game.monopoly.board.*;
 import fr.srault.game.monopoly.player.Player;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,12 +26,13 @@ public class Monopoly {
 
     public void init() {
         initBoard();
-        // todo
-        // initPlayers();
     }
 
     public void initBoard() {
+        //prevoir un json pour la map
+        //ahout de chaque cases et des gropes
         board = new Board();
+
         // initilaisation des groupes
         Group violet = new Group();
         Group bleu = new Group();
